@@ -1,25 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import {React, useEffect, useState } from "react";
+
+import './App.css'
+import SingUp from "./component/sing-up/sing-up-page/SingUp.js";
+import Account from "./component/sing-up/account-page/Account.js";
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+
+
+  let [runAccountComponent, setRunAccountComponent] = useState('')
+  let getDataFromChild = data => setRunAccountComponent(data)
+  
+
+  let [value, setValue] = useState('')
+  let nameValue = get => setValue(get) 
+  
+
+return(
+  <>
+  
+  
+  {runAccountComponent ? <Account value={value}/>:<SingUp getDataFromChild={getDataFromChild} nameValue={nameValue} />}
+  </>
+  )
 }
 
 export default App;

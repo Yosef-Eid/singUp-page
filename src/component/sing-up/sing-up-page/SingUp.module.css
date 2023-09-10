@@ -1,0 +1,168 @@
+
+.father{
+    position: relative;
+    width: 414px;
+    height: 720px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 20px;
+    margin-top: 10px;
+    background: linear-gradient(90deg, #A1C4FD 0%, #C2E9FB 100%);
+    box-shadow: 0px 13px 25px 0px rgba(47, 115, 195, 0.50);
+}
+
+.father .circleTop{
+    display:flex;
+    align-items: end;
+    justify-content: center;
+    padding-bottom: 100px;
+    width: 620px;
+    height: 620px;
+    position: absolute;
+    top: -400px;
+    left: -200px;
+    border-radius: 620px;
+    background: linear-gradient(257deg, rgba(120, 198, 242, 0.50) 39.41%, rgba(194, 229, 254, 0.50) 68.42%);
+    box-shadow: 0px 4px 15px 0px rgba(51, 159, 220, 0.25);
+    color: #103D78;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+
+}
+
+.father form {
+    width: 300px;
+    height: 360px;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+    margin-top: 140px;
+    /* background-color: rgb(0, 119, 255); */
+}
+
+.father form label{
+color: #FFF;
+font-size: 14px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin-top:-7px ;
+}
+
+.father form input{
+    width: 300px;
+    height: 35px;
+    border-radius: 20px;
+    background: #ffffff8f;
+    outline: none;
+    border: 0;
+    padding-left:13px;
+    color: #595959;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+.father form input:focus{
+    background-color: #ffffffc5;
+}
+
+::placeholder{
+    color: #59595981;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.father .butt{
+    height: 35px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.father .butt button{
+    position: relative;
+    width: 125px;
+    height: 35px;
+    flex-shrink: 0;
+    border-radius: 20px;
+    border:0;
+    background: #6490E4;
+    box-shadow: 0px 4px 7px 0px rgba(69, 146, 218, 0.2);
+    color: #FFF;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+    transition: all .2s;
+}
+
+.father .butt button:hover{
+    background-color: #0059ffd0;
+}
+
+.father .circleBottom{
+    position: absolute; top:92%;
+    width: 620px;
+    height: 620px;
+    flex-shrink: 0;
+    border-radius: 620px;
+    background: linear-gradient(257deg, rgba(120, 198, 242, 0.50) 39.41%, rgba(194, 229, 254, 0.50) 68.42%);
+    box-shadow: 0px 4px 15px 0px rgba(51, 159, 220, 0.25);
+}
+
+.father form .chickEmile{
+    color: red;
+    font-size:13px ;
+    position: absolute ; top: 41.8% ; right:  70px;
+}
+
+.father form .chickName{
+    color: red;
+    font-size:13px ;
+    position: absolute ; top: 52% ; right:  70px;
+}
+
+.father form .chickPassword{
+    color: red;
+    font-size:13px ;
+    position: absolute ; top: 62.3% ; right:  70px;
+}
+
+
+.father form .chickConfirmPassword{
+    color: red;
+    font-size:13px ;
+    position: absolute ; top: 72.5% ; right:  70px;
+}
+
+.father form #showPassword{
+    position: absolute; right: 66px; top: 58.5%;
+    color: #656b7a;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

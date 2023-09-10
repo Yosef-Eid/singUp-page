@@ -1,0 +1,17 @@
+.father{
+    width: 100vh;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.father ion-icon{
+    scale: 15;
+    color:steelblue;
+}
+
+.father h1{
+    margin-top: 100px;
+}
